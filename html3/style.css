@@ -1,0 +1,10 @@
+.ordenada{
+    background-color: yellow;
+}
+.no-ordenada{
+    background-color: black;
+    color: white;
+}
+.no-ordenada span{
+    color: red;
+}
