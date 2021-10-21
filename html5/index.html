@@ -7,33 +7,53 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>jilson</h1>
     <form action="">
         <fieldset>
-            <label>Nombre</label>
+            <label>Nombre
             <input type="text">
+            </label>
         </fieldset>
         <fieldset>
-            <label>Apellido</label>
+            <label>Apellido
             <input type="text">
+            </label>
         </fieldset>
         <fieldset>
-            <label>Email</label>
+            <label>Email
             <input type="email">
+            </label>
         </fieldset>
-        <fieldset>
-            <label>Color</label>
-            <select>
-                <option value="1">azul</option>
-                <option value="2">verde</option>
-                <option value="3">amarillo</option>
+        <label>
+            Color
+            <select name="color">
+              <option value="" disabled selected>Selecciona un color</option>
+              <option value="red">Rojo</option>
+              <option value="orange">Naranja</option>
+              <option value="yellow">Amarillo</option>
             </select>
-        </fieldset>
+          </label>
         <fieldset>
-            <input type="radio" name="" id="">
-            <input type="radio" name="" id="">
-            <input type="radio" name="" id="">
-        </fieldset>
+            <label>
+              <input type="radio" name="tamaño" value="s" />
+              Talla s
+            </label>
+            <label>
+              <input type="radio" name="tamaño" value="m" checked/>
+              Talla m
+            </label>
+            <label>
+              <input type="radio" name="tamaño" value="l" />
+              Talla l
+            </label>
+          </fieldset>
+          <label>
+            Comentario
+            <textarea name="comentario" rows="3" cols="20">
+            </textarea>
+          </label>
+          <fieldset>
+            <input type="submit" value="Pedir" />
+          </fieldset>
     </form>
 </body>
 </html>
